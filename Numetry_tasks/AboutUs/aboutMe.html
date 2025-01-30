@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>aboutMe</title>
+    <link rel="stylesheet" href="styleA.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>About Me</span>
+            </div>
+            
+        
+    </nav>
+    <!--About me-->
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="myPhoto.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Pallavi Jadhav</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a Full Stack Developer</div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I am pursuing a BE from MMIT college with a degree in Computer Engineering, specializing in Java Full Stack development. I am passionate about building responsive and user-friendly websites and applications. My academic and project experiences have equipped me with a solid foundation in both front-end and back-end technologies.</p>
+
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/Pallavijadhav2002/Numetry_Task1/tree/main/Numetry_tasks/Numetry_task2
+                        " ><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="mailto:jadhavpallavi063@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+                    </div>
+                    
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skills-container">
+                            <h5>HTML & CSS</h5>
+                            <h5>JavaScript</h5>
+                            <h5>React</h5>
+                            <h5>Node.js</h5>
+                            <h5>Java</h5>
+                            <h5>SQL</h5>
+
+                        </div>
+                    </div>
+                    
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <a href="NewResume (1).pdf" download="Pallavi_Jadhav_Resume.pdf">
+                            <button>Download CV</button> 
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>

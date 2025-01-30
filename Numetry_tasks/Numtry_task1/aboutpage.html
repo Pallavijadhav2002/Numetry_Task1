@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            border: 2px solid white;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .profile-image:hover {
+            transform: scale(1.1);
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .skill-card {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 150px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <img src="myPhoto.jpg" alt="Profile Picture" class="profile-image">  
+        </div>
+        <div class="section">
+            <h1>Pallavi Jadhav</h1>
+            <h2>Full Stack Developer</h2>
+            <p>About Me</p>
+            <p>I am pursuing a BE from MMIT college with a degree in Computer Engineering, specializing in Java Full Stack development. I am passionate about building responsive and user-friendly websites and applications. My academic and project experiences have equipped me with a solid foundation in both front-end and back-end technologies.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <h3>HTML,CSS</h3>
+                    <p>Experienced in structuring web pages using semantic HTML and styling them with modern CSS techniques.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Skilled in interactive UI development and DOM manipulation.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Experience in building dynamic front-end applications.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Node.js</h3>
+                    <p>Capable of developing server-side applications and APIs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Me</h2>
+            <p>Email: jadhavpallavi063@gmail.com</p>
+            <p>LinkedIn: pallaviJadhav22</p>
+        </div>
+    </div>
+</body>
+</html>
